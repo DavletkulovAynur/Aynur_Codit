@@ -2,6 +2,8 @@ import React from "react";
 import "./Main.scss";
 import avatar from "../../Common/assets/img/aynur-avatar.png";
 import tg from "../../Common/assets/img/social/tg.svg";
+import instagram from "../../Common/assets/img/social/instagram.svg";
+import youtube from "../../Common/assets/img/social/youtube.svg";
 
 export default function Main() {
   return (
@@ -16,9 +18,15 @@ export default function Main() {
             <h1>Aynur Codit</h1>
             <h3>I`m a frontend developer</h3>
           </section>
-          <section>
-            <a>
-              <img src={tg}/>
+          <section className="Social">
+            <a href="#" className="Social__item">
+              <img src={tg} />
+            </a>
+            <a href="#" className="Social__item">
+              <img src={instagram} />
+            </a>
+            <a href="#" className="Social__item">
+              <img src={youtube} />
             </a>
           </section>
         </div>

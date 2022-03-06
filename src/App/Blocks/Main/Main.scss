@@ -48,3 +48,11 @@ svg {
 svg path {
   fill: #00f5f5;
 }
+
+.Social {
+  &__item {
+    display: block;
+    width: 40px;
+    height: auto;
+  }
+}
