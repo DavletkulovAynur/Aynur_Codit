@@ -1,0 +1,50 @@
+.Main {
+  background-color: #002e3d;
+}
+
+// .App-content {
+//   max-width: 1400px;
+//   margin: auto;
+//   padding: 0 12px;
+// }
+
+.test {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.Avatar {
+  // display: flex;
+  // justify-content: center;
+  &__img {
+    object-fit: contain;
+    height: 400px;
+    width: 100%;
+  }
+}
+
+h1 {
+  font-family: 'PeachyKeenJF', sans-serif;
+ color: #f7f474;
+ margin: 0;
+ font-size: 60px;
+}
+
+h3 {
+  color: #00ffff;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 32px;
+  margin: 0;
+  text-align: center;
+}
+
+svg {
+  width: 100%;
+  transform: rotate(180deg);
+  display: block;
+}
+
+svg path {
+  fill: #00f5f5;
+}
