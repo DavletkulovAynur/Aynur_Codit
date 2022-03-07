@@ -1,35 +1,60 @@
 import React from "react";
 import "./Portfolio.scss";
 import euro from '../../Common/assets/img/portfolio/euro-2020.jpg'
+import Plashka from "../../Common/Components/Plashka/Plashka";
 
 const portfolioData = {
   firstBlock: [
     {
       id: 'euro',
-      name: 'euro2020'
+      name: 'euro2020',
+      plashka: {
+        name: 'Russia today',
+        color: 'green'
+      },
+    },
+    {
+      id: 'online-store',
+      name: 'online store',
+      plashka: {
+        name: 'Pet Project',
+        color: 'yellow'
+      },
     },
     {
       id: 'euro',
-      name: 'euro2020'
+      name: '2022 Olympics',
+      plashka: {
+        name: 'Russia today',
+        color: 'green'
+      },
     },
     {
       id: 'euro',
-      name: 'euro2020'
-    },
-    {
-      id: 'euro',
-      name: 'euro2020'
+      name: 'euro2020',
+      plashka: {
+        name: 'Pet Project',
+        color: 'green'
+      },
     },
   ],
   
   secondBlock: [
     {
       id: 'adventure',
-      name: '85 adventures'
+      name: '85 adventures',
+      plashka: {
+        name: 'Russia today',
+        color: 'green'
+      },
     },
     {
       id: 'euro',
-      name: 'euro2020'
+      name: 'Collection',
+      plashka: {
+        name: 'Pet Project',
+        color: 'yellow'
+      },
     },
   ]
 }
@@ -39,16 +64,17 @@ export default function Portfolio() {
   return (
     <div className="Portfolio">
       <div className="App-content">
-      <h1>PORTFOLIO</h1>
         <div className="Portfolio__cards Grid-default ">
           <section className="Grid-default">
            {portfolioData.firstBlock.map((item) => {
               return (
               <div className="Portfolio__item">
                 <div className="Portfolio__item-text">
-                  <h4>{item.name}</h4>
+                  <h4 className="text">{item.name}</h4>
+                  <Plashka data={item.plashka}/>
                 </div>
-                <div className="Portfolio__item-img"></div>
+                <div className={`Portfolio__item-img Portfolio__item-img-${item.id}`}></div>
+
               </div>
               )
            })}
@@ -59,6 +85,10 @@ export default function Portfolio() {
               <div className="Portfolio__item">
                 <div className="Portfolio__item-text">
                   <h4>{item.name}</h4>
+                  {/* <div className="Portfolio__item-plashka">
+                    <span>{item.plashka}</span>
+                  </div> */}
+                  <Plashka data={item.plashka}/>
                 </div>
                 <div className={`Portfolio__item-img Portfolio__item-img-${item.id}`}></div>
               </div>

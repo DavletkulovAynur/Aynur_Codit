@@ -1,0 +1,13 @@
+.Plashka {
+  padding: 2px 8px;
+  display: inline-block;
+  border-radius: 10px;
+
+  &__green {
+    background: #77bc20;
+  }
+
+  &__yellow {
+    background: #e9e86f;
+  }
+}
