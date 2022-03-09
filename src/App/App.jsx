@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.scss";
+import AboutMe from "./Blocks/AboutMe/AboutMe";
 import Main from "./Blocks/Main/Main";
 import Portfolio from "./Blocks/Portfolio/Portfolio";
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
      <Main/>
      <Portfolio/>
+     <AboutMe/>
     </div>
   );
 }
