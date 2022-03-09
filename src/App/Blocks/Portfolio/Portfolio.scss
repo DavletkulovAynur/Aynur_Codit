@@ -12,6 +12,16 @@
     margin: 0;
   }
 
+  svg {
+    width: 100%;
+    transform: rotate(360deg);
+    display: block;
+  }
+  
+  svg path {
+    fill: #ffffff;
+  }
+
 
   &__item {
     padding: 12px;
