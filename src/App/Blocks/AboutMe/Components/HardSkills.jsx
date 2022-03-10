@@ -26,8 +26,8 @@ const skillsData = [
 
 export default function HardSkills() {
   return (
-    <div>
-      <h1>Hard skills</h1>
+    <div className="Hard-skills">
+      <p className="Hard-skills__title">I wrote these articles recently & aligned this text to the right for no real reason other than to mess with you</p>
       <div className="Skills">
         {skillsData.map((item, index) => {
           return (

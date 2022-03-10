@@ -7,11 +7,12 @@ export default function AboutMe() {
   return (
     <div className="About-me">
       <div className="App-content">
-        <h1>SKILLS</h1>
-        <div className="About-me__content">
+        <section className="About-me__hard-skills">
           <HardSkills/>
+        </section>
+        <section className="About-me__soft-skills">
           <SoftSkills/>
-        </div>
+        </section>
       </div>
     </div>
   );

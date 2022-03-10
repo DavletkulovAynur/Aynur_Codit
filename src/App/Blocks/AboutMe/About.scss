@@ -1,9 +1,13 @@
 .About-me {
   background: #fd2d78;
 
-  &__content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2vw;
+  &__hard-skills {
+    max-width: 768px;
+    margin-left: 30%;
+  }
+
+  &__soft-skills {
+    margin-top: 70px;
+    max-width: 768px;
   }
 }
