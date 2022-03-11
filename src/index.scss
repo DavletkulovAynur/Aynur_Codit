@@ -29,6 +29,16 @@ p {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+
+  &:hover {
+    color: #00ffff;
+    transform: scale(1.2);
+  }
+}
+
 .App-content {
   max-width: 1400px;
   margin: auto;

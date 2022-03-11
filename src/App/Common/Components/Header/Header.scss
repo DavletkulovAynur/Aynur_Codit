@@ -7,6 +7,7 @@
 
   &__logo {
     font-size: 40px;
+    width: 100px;
   }
 
   &__box {
@@ -25,5 +26,11 @@
   &__nav-item {
     margin-left: 40px;
     font-size: 24px;
+    color: #fff;
+
+    // &:hover {
+    //   color: #00ffff;
+    //   transform: scale(1.2);
+    // }
   }
 }
