@@ -2,12 +2,13 @@ import React from "react";
 import "./Main.scss";
 import avatar from "../../Common/assets/img/aynur-avatar.png";
 import Social from "../../Common/Components/Social/Social";
+import Header from "../../Common/Components/Header/Header";
 
 
 export default function Main() {
   return (
     <div className="Main">
-      <header></header>
+      <Header/>
       <div className="App-content">
         <div className="test">
           <section className="Avatar">
