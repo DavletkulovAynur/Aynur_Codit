@@ -1,0 +1,19 @@
+.Footer {
+  &__root {
+    background: url(../../assets/img/footer.svg) no-repeat bottom;
+    width: 100%;
+    min-height: 440px;
+    height: auto;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  &__copyright {
+    font-family: 'PeachyKeenJF', sans-serif;
+    color: #000;
+    font-size: 32px;
+    margin: 0 0 24px;
+  }
+}
