@@ -1,9 +1,29 @@
 .Header {
   &__root {
     padding: 24px 0;
+    background: #002e3d;
+    color: #fff;
   }
 
   &__logo {
-    width: 200px;
+    font-size: 40px;
+  }
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: auto;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+  }
+
+  &__nav-item {
+    margin-left: 40px;
+    font-size: 24px;
   }
 }

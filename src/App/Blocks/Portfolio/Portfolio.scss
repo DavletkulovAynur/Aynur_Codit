@@ -1,9 +1,14 @@
 .Portfolio {
-  background: #00f5f5;
+  
+  &__root {
+    background: #00f5f5;
+  }
 
-  p {
-    margin-top: 24px;
-    font-size: 28px;
+  &__title {
+    font-family: 'PeachyKeenJF', sans-serif;
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: right;
   }
 
   h4 {
