@@ -1,0 +1,29 @@
+.Info-developer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  &__avatar-img {
+      object-fit: contain;
+      height: 400px;
+      width: 100%;
+  }
+
+  &__about {}
+
+  &__name {
+    font-family: "PeachyKeenJF", sans-serif;
+    color: #f7f474;
+    margin: 0;
+    font-size: 60px;
+  }
+
+  &__about-text {
+    color: #00ffff;
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 32px;
+    margin: 0;
+    text-align: center;
+  }
+}
