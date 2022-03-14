@@ -10,8 +10,10 @@ export default function Main() {
   return (
     <div className="Main Main__root">
       <div className="App-content">
-        <InfoDeveloper/>
-        <Social/>
+          <InfoDeveloper/>
+          <div className="Main__social">
+            <Social/>
+          </div>
       </div>
       <img className="Main__separator" src={mainSeparator}/>
     </div>

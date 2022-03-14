@@ -1,16 +1,20 @@
 .Info-developer {
   display: flex;
+  position: relative;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  max-width: 768px;
+  margin: auto;
 
   &__avatar-img {
-      object-fit: contain;
-      height: 400px;
-      width: 100%;
+    object-fit: contain;
+    height: 400px;
+    width: 100%;
   }
 
-  &__about {}
+  &__about {
+  }
 
   &__name {
     font-family: "PeachyKeenJF", sans-serif;
@@ -25,5 +29,22 @@
     font-size: 32px;
     margin: 0;
     text-align: center;
+  }
+
+  &__arrow-about {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    display: flex;
+    transform: rotate(15deg);
+
+    &-title {
+      white-space: nowrap;
+      color: #fff;
+    }
+
+    &-icon {
+      margin-left: 12px;
+    }
   }
 }
