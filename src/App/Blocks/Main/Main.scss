@@ -3,13 +3,16 @@
     background-color: #002e3d;
   }
 
+  &__content-box {
+    margin: auto;
+  }
+
+  &__social {
+    display: flex;
+    justify-content: center;
+  }
+
   &__separator {
     transform: rotate(180deg);
   } 
-}
-
-.Social {
-  // &__item {
-  
-  // }
 }
