@@ -5,13 +5,16 @@ import arrow from "../../../Common/assets/img/icons/arrow.svg";
 
 const arrowsData = [
   {
-    title: "That's me"
+    title: "That's me",
+    position: 'left',
   },
   {
-    title: "I do this faux hawk thing to draw attention away from my receding hairline."
+    title: "I do this faux hawk thing to draw attention.",
+    position: 'top',
   },
   {
-    title: "I’m almost never not wearing t-shirts because collars get in the way of turning my rippling, muscle-bound neck."
+    title: "I’m almost never not wearing t-shirts because collars get in the way.",
+    position: 'right',
   },
 ]
 
@@ -33,11 +36,14 @@ export default function InfoDeveloper() {
 function ArrowsBlock() {
   return (
     <>
-      <div></div>
-      <div className="Info-developer__arrow-about">
-        <p className="Info-developer__arrow-about-title">That's me</p>
-        <img className="Info-developer__arrow-about-icon" src={arrow}/>
-      </div>
+      {arrowsData.map((item) => {
+        return (
+        <div className={`Info-developer__arrow-about Info-developer__${item.position}`}>
+          <p className="Info-developer__arrow-about-title">{item.title}</p>
+          <img className="Info-developer__arrow-about-icon" src={arrow}/>
+        </div>
+        )
+      })}
     </>
   )
 }
