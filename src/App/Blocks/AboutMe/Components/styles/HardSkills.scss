@@ -5,6 +5,20 @@
     margin-bottom: 24px;
     text-align: right;
   }
+
+  &__img {
+
+  }
+
+  &__root {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2vw;
+  }
+
+  &__content {
+    grid-column: 2/4;
+  }
 }
 
 .Skills {

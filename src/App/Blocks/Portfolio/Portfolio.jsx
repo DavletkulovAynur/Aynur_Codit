@@ -1,6 +1,5 @@
 import React from "react";
 import "./Portfolio.scss";
-import euro from '../../Common/assets/img/portfolio/euro-2020.jpg'
 import Plashka from "../../Common/Components/Plashka/Plashka";
 
 const portfolioData = {
@@ -22,7 +21,7 @@ const portfolioData = {
       },
     },
     {
-      id: 'euro',
+      id: 'olympics',
       name: '2022 Olympics',
       plashka: {
         name: 'Russia today',
@@ -30,10 +29,10 @@ const portfolioData = {
       },
     },
     {
-      id: 'euro',
-      name: 'euro2020',
+      id: 'doctor',
+      name: 'Akbars med',
       plashka: {
-        name: 'Pet Project',
+        name: 'Technaxis',
         color: 'green'
       },
     },
@@ -49,7 +48,7 @@ const portfolioData = {
       },
     },
     {
-      id: 'euro',
+      id: 'collection',
       name: 'Collection',
       plashka: {
         name: 'Pet Project',
