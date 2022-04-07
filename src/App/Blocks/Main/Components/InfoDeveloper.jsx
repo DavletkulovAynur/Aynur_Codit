@@ -36,9 +36,9 @@ export default function InfoDeveloper() {
 function ArrowsBlock() {
   return (
     <>
-      {arrowsData.map((item) => {
+      {arrowsData.map((item, index) => {
         return (
-        <div className={`Info-developer__arrow-about Info-developer__${item.position}`}>
+        <div key={index} className={`Info-developer__arrow-about Info-developer__${item.position}`}>
           <p className="Info-developer__arrow-about-title">{item.title}</p>
           <img className="Info-developer__arrow-about-icon" src={arrow}/>
         </div>
