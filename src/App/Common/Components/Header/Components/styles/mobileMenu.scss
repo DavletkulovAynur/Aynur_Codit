@@ -1,0 +1,34 @@
+.Mobile-menu {
+  position: fixed;
+  background: #f7f473;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  padding: 12px;
+
+  &__button-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__button {
+    padding: 24px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+
+  &__items {
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+  }
+
+  &__item {
+    margin: 50px;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
