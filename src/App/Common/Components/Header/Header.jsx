@@ -26,7 +26,7 @@ export default function Header() {
       <div className="Header Header__root">
         <div className="App-content Header__box">
           <a href="" className="Header__logo">
-            CODIT
+           CODIT/
           </a>
           <div onClick={openMobileMenu} className="Header__burger">
             <img src={burger} />
