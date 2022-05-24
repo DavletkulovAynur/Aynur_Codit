@@ -3,7 +3,7 @@ export const portfolioData = [
     id: 'euro',
     name: 'euro2020',
     plashka: {
-      name: 'Russia today',
+      name: 'Work projects',
       color: 'green'
     },
   },
@@ -16,18 +16,18 @@ export const portfolioData = [
     },
   },
   {
-    id: 'olympics',
-    name: '2022 Olympics',
+    id: 'taxi',
+    name: 'Yul Yort',
     plashka: {
-      name: 'startup',
-      color: 'green'
+      name: 'Startup',
+      color: 'black'
     },
   },
   {
     id: 'doctor',
     name: 'Akbars med',
     plashka: {
-      name: 'Technaxis',
+      name: 'Work projects',
       color: 'green'
     },
   },
@@ -36,7 +36,7 @@ export const portfolioData = [
     id: 'adventure',
     name: '85 adventures',
     plashka: {
-      name: 'Russia today',
+      name: 'Work projects',
       color: 'green'
     },
   },
