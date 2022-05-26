@@ -1,5 +1,5 @@
 .Plashka {
-  padding: 2px 8px;
+  padding: 2px 12px;
   display: inline-block;
   border-radius: 10px;
 
@@ -9,5 +9,10 @@
 
   &__yellow {
     background: #e9e86f;
+  }
+
+  &__black {
+    color: #fff;
+    background: #000;
   }
 }
