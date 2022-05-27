@@ -31,6 +31,7 @@ const socialData = [
 export default function Social() {
   return (
     <div className="Social">
+    {/* fix */}
       {socialData.map((item) => {
         return (
         <a key={item.id} href={item.href} className="Social__item">
