@@ -1,6 +1,7 @@
 import React from "react";
 import "./Social.scss";
-import tg from "../../assets/img/social/tg.svg";
+// import tg from "../../assets/img/social/tg.svg";
+import tg from "../../assets/img/social/tg.png";
 import instagram from "../../assets/img/social/instagram.svg";
 import youtube from "../../assets/img/social/youtube.svg";
 import mail from "../../assets/img/social/mail.svg";
@@ -31,7 +32,6 @@ const socialData = [
 export default function Social() {
   return (
     <div className="Social">
-    {/* fix */}
       {socialData.map((item) => {
         return (
         <a key={item.id} href={item.href} className="Social__item">
