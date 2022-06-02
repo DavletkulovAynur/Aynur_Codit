@@ -4,7 +4,7 @@ export const portfolioData = [
     name: 'euro2020',
     plashka: {
       name: 'Work projects',
-      color: 'green'
+      color: 'black'
     },
   },
   {
@@ -12,7 +12,7 @@ export const portfolioData = [
     name: 'online store',
     plashka: {
       name: 'Pet Project',
-      color: 'yellow'
+      color: 'black'
     },
   },
   {
@@ -28,7 +28,7 @@ export const portfolioData = [
     name: 'Akbars med',
     plashka: {
       name: 'Work projects',
-      color: 'green'
+      color: 'black'
     },
   },
 
@@ -37,7 +37,7 @@ export const portfolioData = [
     name: '85 adventures',
     plashka: {
       name: 'Work projects',
-      color: 'green'
+      color: 'black'
     },
   },
   {
@@ -45,7 +45,7 @@ export const portfolioData = [
     name: 'Collection',
     plashka: {
       name: 'Pet Project',
-      color: 'yellow'
+      color: 'black'
     },
   },
 
