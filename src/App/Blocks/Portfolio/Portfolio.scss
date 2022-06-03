@@ -1,20 +1,17 @@
 .Portfolio {
-  
+  &_content {
+    max-width: 960px;
+  }
+
   &__root {
     background: #00f5f5;
   }
 
   &__title {
-    font-family: 'PeachyKeenJF', sans-serif;
+    font-family: "PeachyKeenJF", sans-serif;
     font-size: 24px;
     margin-bottom: 40px;
     text-align: right;
-  }
-
-  h4 {
-    font-size: 44px;
-    color: #fff;
-    margin: 0;
   }
 
   svg {
@@ -22,21 +19,20 @@
     transform: rotate(360deg);
     display: block;
   }
-  
+
   svg path {
     fill: #fd2d78;
   }
 
   &__cards {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
-
 
   &__img-wrapper {
     border: 8px solid #002f3c;
   }
 
-  @media(max-width: 768px) {
+  @media (max-width: 768px) {
     &__cards {
       grid-template-columns: repeat(1, 1fr);
     }

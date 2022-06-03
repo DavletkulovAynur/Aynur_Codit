@@ -12,7 +12,7 @@ export default function Portfolio() {
   
   return (
     <div className="Portfolio Portfolio__root">
-      <div className="App-content">
+      <div className="App-content Portfolio_content">
         <Title/>
         <PortfolioCards cards={portfolioBlock.portfolioData}/>
       </div>
