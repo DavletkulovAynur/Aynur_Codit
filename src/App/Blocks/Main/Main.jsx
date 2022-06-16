@@ -14,6 +14,7 @@ export default function Main() {
           <div className="Main__social">
 
 
+<h1></h1>
           
             <Social/>
           </div>
