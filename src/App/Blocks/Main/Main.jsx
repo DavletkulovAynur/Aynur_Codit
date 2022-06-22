@@ -12,9 +12,6 @@ export default function Main() {
       <div className="App-content">
           <InfoDeveloper/>
           <div className="Main__social">
-
-
-<h1>hell</h1>
           
             <Social/>
           </div>
