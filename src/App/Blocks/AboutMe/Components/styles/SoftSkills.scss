@@ -5,6 +5,11 @@
     margin-bottom: 24px;
     text-align: left;
   }
+  @media (max-width: 768px) {
+    &__text {
+      font-size: 30px;
+    }
+  }
 
   &__video {
     background: #012f3c;

@@ -32,8 +32,8 @@ export default function Header() {
             <img src={burger} />
           </div>
           <nav className="Header__nav">
-            <a href="" className="Header__nav-item">About me</a>
-            <a href="" className="Header__nav-item">Portfolio</a>
+            <a href="#about-me" className="Header__nav-item">About me</a>
+            <a href="#portfolio" className="Header__nav-item">Portfolio</a>
           </nav>
         </div>
       </div>
