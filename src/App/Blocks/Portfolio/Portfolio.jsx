@@ -11,7 +11,7 @@ export default function Portfolio() {
   const portfolioBlock = new PortfolioVM
   
   return (
-    <div className="Portfolio Portfolio__root">
+    <div  className="Portfolio Portfolio__root">
       <div className="App-content Portfolio_content">
         <Title/>
         <PortfolioCards cards={portfolioBlock.portfolioData}/>

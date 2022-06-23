@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PortfolioFooter() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <svg  id="about-me" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path
         fill="#000b76"
         fillOpacity="1"

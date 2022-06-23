@@ -33,6 +33,11 @@
     margin-bottom: 12px;
     margin-left: 10%;
   }
+  @media (max-width: 768px) {
+    &__item-text {
+      margin-left: 0;
+    }
+  }
 
   &__item-graphic-element {
     display: flex;

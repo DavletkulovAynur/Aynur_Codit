@@ -16,7 +16,7 @@ export default function Main() {
             <Social/>
           </div>
       </div>
-      <img className="Main__separator" src={mainSeparator}/>
+      <img id="portfolio" className="Main__separator" src={mainSeparator}/>
     </div>
   );
 }

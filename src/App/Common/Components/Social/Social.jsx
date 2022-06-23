@@ -10,7 +10,7 @@ const socialData = [
   {
     id: 1,
     socialImg: tg,
-    href: ''
+    href: 'https://t.me/Davletkulov'
   },
   {
     id: 2,
@@ -20,12 +20,12 @@ const socialData = [
   {
     id: 3,
     socialImg: youtube,
-    href: ''
+    href: 'https://www.youtube.com/channel/UCKl6wSDQYfNdF3ENcdXB6vg'
   },
   {
     id: 4,
     socialImg: mail,
-    href: ''
+    href: 'mailto:ainurikdav@gmail.com'
   }
 ]
 
@@ -34,7 +34,7 @@ export default function Social() {
     <div className="Social">
       {socialData.map((item) => {
         return (
-        <a key={item.id} href={item.href} className="Social__item">
+        <a target="_blank" key={item.id} href={item.href} className="Social__item">
           <img src={item.socialImg} />
         </a>
         )
