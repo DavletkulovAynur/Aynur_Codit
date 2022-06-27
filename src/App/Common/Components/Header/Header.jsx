@@ -1,8 +1,12 @@
 import React, { useState } from "react";
+
+import {Link} from "react-router-dom"
 import "./Header.scss";
 import MobileMenu from "./Components/MobileMenu";
 
 import burger from "../../assets/img/icons/burger.svg";
+
+
 
 export default function Header() {
   const [stateMobileMenu, setStateMobileMenu] = useState(false);
@@ -25,9 +29,9 @@ export default function Header() {
       }
       <div className="Header Header__root">
         <div className="App-content Header__box">
-          <a href="" className="Header__logo">
+          <Link to="/" className="Header__logo">
            CODIT/
-          </a>
+          </Link>
           <div onClick={openMobileMenu} className="Header__burger">
             <img src={burger} />
           </div>

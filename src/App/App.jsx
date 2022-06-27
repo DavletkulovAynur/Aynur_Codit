@@ -1,18 +1,21 @@
 import React from "react";
 import "./App.scss";
-import AboutMe from "./Blocks/AboutMe/AboutMe";
-import Main from "./Blocks/Main/Main";
-import Portfolio from "./Blocks/Portfolio/Portfolio";
 import Footer from "./Common/Components/Footer/Footer";
 import Header from "./Common/Components/Header/Header";
+import { Routes, Route, Link } from "react-router-dom";
+import {MainPage} from "./Pages/Main" 
+import { NotFoundPage } from "./Pages/NotFoundPage";
+import { YulYortTaxi } from "./Pages/PortfolioItem/YulYortTaxi";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
-      <Portfolio />
-      <AboutMe />
+    <Header />
+      <Routes>
+        <Route path="/" element={<MainPage />}/>
+        <Route path="/yul-yort-taxi" element={<YulYortTaxi/>}/>
+        {/* <Route path="*"  element={<NotFoundPage/>}/> */}
+      </Routes>
       <Footer />
     </div>
   );
