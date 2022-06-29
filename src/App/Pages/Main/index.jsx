@@ -5,11 +5,11 @@ import Portfolio from "../../Blocks/Portfolio/Portfolio";
 
 export const MainPage = () => {
   return (
-    <div>
+    <>
       <Main/>
       <Portfolio/>
       <AboutMe/>
-    </div>
+    </>
   );
 };
 
