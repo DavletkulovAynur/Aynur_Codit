@@ -13,8 +13,8 @@ function App() {
     <Header />
       <Routes>
         <Route path="/" element={<MainPage />}/>
-        <Route path="/yul-yort-taxi" element={<YulYortTaxi/>}/>
-        {/* <Route path="*"  element={<NotFoundPage/>}/> */}
+        <Route path="/portfolio/yul-yort-taxi" element={<YulYortTaxi/>}/>
+        <Route path="*"  element={<NotFoundPage/>}/>
       </Routes>
       <Footer />
     </div>

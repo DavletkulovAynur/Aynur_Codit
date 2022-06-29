@@ -1,8 +1,19 @@
 .Header {
   &__root {
+    position: absolute;
     padding: 24px 0;
-    background: #002e3d;
     color: #f7f473;
+    width: 100%;
+  }
+
+  &__yul-yort-taxi {
+    .Header__nav-item {
+      color: blue;
+    }
+
+    .Header__logo {
+      color: blue;
+    }
   }
 
   &__logo {

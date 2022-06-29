@@ -2,7 +2,7 @@ export const portfolioData = [
   {
     id: 'euro',
     name: 'euro2020',
-    href: "euro2020",
+    href: "/portfolio/euro2020",
     plashka: {
       name: 'Work projects',
       color: 'black'
@@ -11,7 +11,7 @@ export const portfolioData = [
   {
     id: 'online-store',
     name: 'online store',
-    href: "online-store",
+    href: "/portfolio/online-store",
     plashka: {
       name: 'Pet Project',
       color: 'black'
@@ -20,7 +20,7 @@ export const portfolioData = [
   {
     id: 'taxi',
     name: 'Yul Yort',
-    href: "yul-yort-taxi",
+    href: "/portfolio/yul-yort-taxi",
     plashka: {
       name: 'Startup',
       color: 'black'
@@ -29,7 +29,7 @@ export const portfolioData = [
   {
     id: 'doctor',
     name: 'Akbars med',
-    href: "akbars-med",
+    href: "/portfolio/akbars-med",
     plashka: {
       name: 'Work projects',
       color: 'black'
@@ -39,7 +39,7 @@ export const portfolioData = [
   {
     id: 'adventure',
     name: '85 adventures',
-    href: "85-adventures",
+    href: "/portfolio/85-adventures",
     plashka: {
       name: 'Work projects',
       color: 'black'
@@ -48,7 +48,7 @@ export const portfolioData = [
   {
     id: 'collection',
     name: 'Collection',
-    href: "collection",
+    href: "/portfolio/collection",
     plashka: {
       name: 'Pet Project',
       color: 'black'
