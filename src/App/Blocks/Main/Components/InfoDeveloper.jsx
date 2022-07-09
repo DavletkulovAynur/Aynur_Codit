@@ -9,7 +9,7 @@ const arrowsData = [
     position: 'left',
   },
   {
-    title: "I do this faux hawk thing to draw attention.",
+    title: "I almost always smile because the optimist in life",
     position: 'top',
   },
   {

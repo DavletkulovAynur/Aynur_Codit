@@ -36,10 +36,11 @@ a {
   text-decoration: none;
   color: #fff;
 
-  &:hover {
-    color: #00ffff;
-    transform: scale(1.1);
-  }
+  // TODO: исправить для ссылок
+  // &:hover {
+  //   color: #00ffff;
+  //   transform: scale(1.1);
+  // }
 }
 
 .App-content {
