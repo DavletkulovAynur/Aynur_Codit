@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/HardSkills.scss";
-import developerImg from "../../../Common/assets/img/developer.png";
+import developer from "../../../Common/assets/img/developer.png";
+import spaceProgrammist from "../../../Common/assets/img/space-programmist.png";
 
 const skillsData = [
   {
@@ -31,8 +32,11 @@ const skillsData = [
 export default function HardSkills() {
   return (
     <div className="Hard-skills Hard-skills__root">
-      <img className="Hard-skills__img" src={developerImg} />
+      <img className="Hard-skills__img" src={developer} />
       <div className="Hard-skills__content">
+      {/* Тут написать про то что умею поднимать программы на чистом js react/redux/mobx могу что в backend */}
+
+      
         {/* <p className="Hard-skills__title">
           I wrote these articles recently & aligned this text to the right for
           no real reason other than to mess with you

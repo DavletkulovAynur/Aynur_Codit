@@ -12,7 +12,6 @@ export const YulYortTaxi = () => {
         <div className="AppListing">
         <div className="AppListing-body">
           <h1 className="AppListing-title">Yul Yort taxi</h1>
-          <h2 className="AppListing-author">Made by Aynur Codit</h2>
           <p className="AppListing-text">Crank it yo! Master the waves and hang ten in Whitewater Wipeout! This wave crashing, high score chasing, crank-tastic experience is inspired by the classic California Games. Experience surfing in an innovative new way while performing sick tricks using the Playdate's unique crank. Perform daring 360’s, gnarly DOUBLE 360s all while avoiding the shark. Will you rise in the ranks of the global leaderboards or fall prey to the wave? Get Whitewater Wipeout only on the Playdate!</p>
           <section>
             <h3 className="AppListing-author">More info from the Developer</h3>
