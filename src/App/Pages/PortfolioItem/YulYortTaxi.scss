@@ -1,4 +1,15 @@
 .Portfolio-item {
+  svg {
+    width: 100%;
+    transform: rotate(360deg);
+    display: block;
+    background: #fff;
+  }
+  
+  svg path {
+    fill: #fd2d78;
+  }
+  
   &__root {
     padding-top: 100px;
     background: #ffc833;
@@ -124,3 +135,4 @@
     }
   }
 }
+

@@ -17,6 +17,16 @@
   &__content {
     grid-column: 2/4;
   }
+
+  @media (max-width: 768px) {
+    &__img {
+      display: none;
+    }
+
+    &__content {
+      grid-column: 1/4;
+    }
+  }
 }
 
 .Skills {

@@ -5,27 +5,35 @@ import spaceProgrammist from "../../../Common/assets/img/space-programmist.png";
 
 const skillsData = [
   {
-    name: "JavaScript",
-    knowledge: "90",
+    name: "JavaScript/TS",
+    knowledge: "95",
     text: `I think I have fully mastered JavaSript. On clean wrote OOP project`,
   },
   {
     name: "HTML/SCSS",
-    knowledge: "85",
+    knowledge: "90",
   },
   {
-    name: "React/Redux",
-    knowledge: "85",
+    name: "React",
+    knowledge: "90",
     text: `I wrote these articles recently & aligned this text to the right for no real reason other than to mess with you`,
   },
   {
-    name: "Node/Express",
+    name: "Mobx/Redux",
+    knowledge: "85",
+  },
+  {
+    name: "Express/Nest",
+    knowledge: "65",
+    text: `I wrote these articles recently & aligned this text to the right for no real reason other than to mess with you`,
+  },
+  {
+    name: "Docker",
     knowledge: "55",
-    text: `I wrote these articles recently & aligned this text to the right for no real reason other than to mess with you`,
   },
   {
-    name: "Algorithms",
-    knowledge: "40",
+    name: "Mongo",
+    knowledge: "50",
   },
 ];
 
