@@ -31,7 +31,6 @@ export default function Header() {
   //FIXME: придумать решение получше 
   const defineColorHeader = (path) => {
     const classNamer = path.replace('/portfolio/', '')
-    console.log(typeof classNamer)
     setColorHeaderClass(classNamer)
   }
 

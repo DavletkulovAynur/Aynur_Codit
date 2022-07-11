@@ -11,7 +11,7 @@ export const portfolioData = [
   {
     id: 'online-store',
     name: 'online store',
-    href: "/portfolio/online-store",
+    href: "/portfolio/store",
     plashka: {
       name: 'Pet Project',
       color: 'black'
@@ -20,7 +20,7 @@ export const portfolioData = [
   {
     id: 'taxi',
     name: 'Yul Yort',
-    href: "/portfolio/yul-yort-taxi",
+    href: "/portfolio/taxi",
     plashka: {
       name: 'Startup',
       color: 'black'
@@ -29,7 +29,7 @@ export const portfolioData = [
   {
     id: 'doctor',
     name: 'Akbars med',
-    href: "/portfolio/akbars-med",
+    href: "/portfolio/akbarsmed",
     plashka: {
       name: 'Work projects',
       color: 'black'
@@ -39,7 +39,7 @@ export const portfolioData = [
   {
     id: 'adventure',
     name: '85 adventures',
-    href: "/portfolio/85-adventures",
+    href: "/portfolio/adventure",
     plashka: {
       name: 'Work projects',
       color: 'black'
