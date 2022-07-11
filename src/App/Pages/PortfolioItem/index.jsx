@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./YulYortTaxi.scss";
 import { useRouter } from "../../Common/hooks/useRouter";
 import { aboutPortfoliItems } from "../../../data/aboutPortfolioItems";
@@ -9,6 +9,7 @@ export const PortfolioViewDefault = () => {
   useEffect(() => {
     defineColorHeader(router.pathname);
   }, [router]);
+  const textInput = useRef(null);
 
   //FIXME: придумать решение получше
   const defineColorHeader = (path) => {
@@ -16,8 +17,20 @@ export const PortfolioViewDefault = () => {
     setPortfolioData(portfolioItem);
   };
 
+  // TODO: придумать решение получше
+  const scrollToMyRef = () => {
+    console.log('test')
+    // document.body.scrollTop = 0;
+    window.scrollTo(0, 0)
+  };
+
+  useEffect(() => {
+    scrollToMyRef();
+  }, []);
+
   return (
     <div
+      ref={textInput}
       className="Portfolio-item Portfolio-item__root"
       style={
         aboutPortfoliItems[portfolioData] && {
@@ -71,9 +84,9 @@ const MainContent = ({ data }) => {
                 More info from the Developer
               </h3>
               <ul className="AppListing-list">
-                {links.map((link) => {
+                {links.map((link, index) => {
                   return (
-                    <li className="AppListing-link">
+                    <li key={index} className="AppListing-link">
                       <a className="AppListing-external" href={link}>
                         {link}
                       </a>
@@ -85,9 +98,9 @@ const MainContent = ({ data }) => {
           </div>
           <div className="AppListing-meta">
             <ul>
-              {images.map((img) => {
+              {images.map((img, index) => {
                 return (
-                  <li>
+                  <li key={index}>
                     <label>
                       <img src={img} alt="" />
                     </label>

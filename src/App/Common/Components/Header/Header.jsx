@@ -4,7 +4,8 @@ import {Link} from "react-router-dom"
 import "./Header.scss";
 import MobileMenu from "./Components/MobileMenu";
 
-import burger from "../../assets/img/icons/burger.svg";
+// import burger from "../../assets/img/icons/burger.svg";
+import burger from "../../assets/img/icons/burger.png";
 import { useRouter } from "../../hooks/useRouter";
 
 
