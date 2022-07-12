@@ -6,7 +6,8 @@ import adventure from "../App/Common/assets/img/portfolio/travel.png";
 import collection from "../App/Common/assets/img/portfolio/collection.png";
 
 // Taxi images
-import taxiImage1 from "../App/Common/assets/img/developer.png";
+import taxiImage1 from "../App/Common/assets/img/portfolio/taxiImages/taxi-img1.png";
+import taxiImage2 from "../App/Common/assets/img/portfolio/taxiImages/taxi-img2.png";
 
 export const aboutPortfoliItems = {
   taxi: {
@@ -15,7 +16,7 @@ export const aboutPortfoliItems = {
     text: `Yul yort taxi`,
     background: '#ffc833',
     links: ["https://github.com/gaisdav/yul-yort-admin"],
-    images: [taxiImage1, taxiImage1],
+    images: [taxiImage1, taxiImage2],
   },
   euro2020: {
     title: "euro2020",
