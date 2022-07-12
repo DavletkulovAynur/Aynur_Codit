@@ -23,12 +23,16 @@
     position: relative;
     top: 30%;
     transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 
   &__item {
-    margin: 50px;
     font-size: 50px;
     text-transform: uppercase;
     text-align: center;
+    padding: 30px;
+    color: #000;
   }
 }

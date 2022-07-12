@@ -8,5 +8,9 @@
     display: block;
     width: 40px;
     height: auto;
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 }
