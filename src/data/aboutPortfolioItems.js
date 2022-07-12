@@ -46,7 +46,7 @@ export const aboutPortfoliItems = {
     img: adventure,
     text: `adventure`,
     background: '#8dc3b6',
-    links: ["https://github.com/gaisdav/yul-yort-admin"],
+    links: ["https://85adventures.rbth.com/"],
     images: [taxiImage1, taxiImage1],
   },
   collection: {

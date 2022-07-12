@@ -1,60 +1,57 @@
 import React, { useEffect, useState } from "react";
+import { HashLink as Link } from 'react-router-hash-link';
 
-import {Link} from "react-router-dom"
 import "./Header.scss";
 import MobileMenu from "./Components/MobileMenu";
 
-// import burger from "../../assets/img/icons/burger.svg";
 import burger from "../../assets/img/icons/burger.png";
 import { useRouter } from "../../hooks/useRouter";
 
-
-
 export default function Header() {
   const [stateMobileMenu, setStateMobileMenu] = useState(false);
-  const [colorHeaderClass, setColorHeaderClass] = useState('')
+  const [colorHeaderClass, setColorHeaderClass] = useState("");
   const router = useRouter();
 
   useEffect(() => {
-    defineColorHeader(router.pathname)
-  }, [router])
-  
+    defineColorHeader(router.pathname);
+  }, [router]);
+
   function openMobileMenu() {
-    setStateMobileMenu(true)
+    setStateMobileMenu(true);
     document.body.style.overflow = "hidden";
   }
 
   function closeMobileMenu() {
-    setStateMobileMenu(false)
+    setStateMobileMenu(false);
     document.body.style.overflow = "auto";
   }
 
-  //FIXME: придумать решение получше 
+  //FIXME: придумать решение получше
   const defineColorHeader = (path) => {
-    const classNamer = path.replace('/portfolio/', '')
-    setColorHeaderClass(classNamer)
-  }
-
-  
-  
+    const classNamer = path.replace("/portfolio/", "");
+    setColorHeaderClass(classNamer);
+  };
 
   return (
     <>
-      { stateMobileMenu 
-        ? <MobileMenu closeMobileMenu={closeMobileMenu}/>
-        : null
-      }
+      {stateMobileMenu ? (
+        <MobileMenu closeMobileMenu={closeMobileMenu} />
+      ) : null}
       <div className={`Header Header__root Header__${colorHeaderClass}`}>
         <div className="App-content Header__box">
           <Link to="/" className="Header__logo">
-           CODIT/
+            &lt;CODIT/&gt;
           </Link>
           <div onClick={openMobileMenu} className="Header__burger">
             <img src={burger} />
           </div>
           <nav className="Header__nav">
-            <a href="#about-me" className="Header__nav-item">About me</a>
-            <a href="#portfolio" className="Header__nav-item">Portfolio</a>
+            <Link to="/#about-me" className="Header__nav-item">
+              About me
+            </Link>
+            <Link to="/#portfolio" className="Header__nav-item">
+              Portfolio
+            </Link>
           </nav>
         </div>
       </div>

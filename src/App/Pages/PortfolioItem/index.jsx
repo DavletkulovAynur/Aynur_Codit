@@ -19,8 +19,6 @@ export const PortfolioViewDefault = () => {
 
   // TODO: придумать решение получше
   const scrollToMyRef = () => {
-    console.log('test')
-    // document.body.scrollTop = 0;
     window.scrollTo(0, 0)
   };
 
