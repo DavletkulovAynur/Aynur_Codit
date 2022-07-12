@@ -8,6 +8,12 @@ import collection from "../App/Common/assets/img/portfolio/collection.png";
 // Taxi images
 import taxiImage1 from "../App/Common/assets/img/portfolio/taxiImages/taxi-img1.png";
 import taxiImage2 from "../App/Common/assets/img/portfolio/taxiImages/taxi-img2.png";
+import euroImage1 from "../App/Common/assets/img/portfolio/euro2020/euro2020-1.png";
+import euroImage2 from "../App/Common/assets/img/portfolio/euro2020/euro2020-2.png";
+import adventureImage1 from "../App/Common/assets/img/portfolio/adventure/adventure-1.png";
+import adventureImage2 from "../App/Common/assets/img/portfolio/adventure/adventure-2.jpg";
+import storeImage1 from "../App/Common/assets/img/portfolio/store/store-1.jpg";
+import storeImage2 from "../App/Common/assets/img/portfolio/store/store-2.jpg";
 
 export const aboutPortfoliItems = {
   taxi: {
@@ -23,8 +29,8 @@ export const aboutPortfoliItems = {
     img: euro,
     text: `euro2020`,
     background: '#306fb6',
-    links: ["https://github.com/gaisdav/yul-yort-admin"],
-    images: [taxiImage1, taxiImage1],
+    links: ["https://russian.rt.com/euro2020"],
+    images: [euroImage1, euroImage2],
   },
   store: {
     title: "store",
@@ -32,7 +38,7 @@ export const aboutPortfoliItems = {
     text: `store`,
     background: '#fc00ff',
     links: ["https://github.com/gaisdav/yul-yort-admin"],
-    images: [taxiImage1, taxiImage1],
+    images: [storeImage2, storeImage1],
   },
   akbarsmed: {
     title: "akbarsmed",
@@ -48,7 +54,7 @@ export const aboutPortfoliItems = {
     text: `adventure`,
     background: '#8dc3b6',
     links: ["https://85adventures.rbth.com/"],
-    images: [taxiImage1, taxiImage1],
+    images: [adventureImage2, adventureImage1],
   },
   collection: {
     title: "collection",
