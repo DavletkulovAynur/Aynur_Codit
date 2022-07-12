@@ -85,7 +85,7 @@ const MainContent = ({ data }) => {
                 {links.map((link, index) => {
                   return (
                     <li key={index} className="AppListing-link">
-                      <a className="AppListing-external" href={link}>
+                      <a target="_blank" className="AppListing-external" href={link}>
                         {link}
                       </a>
                     </li>
