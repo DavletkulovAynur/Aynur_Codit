@@ -7,7 +7,7 @@ const skillsData = [
   {
     name: "JavaScript/TS",
     knowledge: "95",
-    text: `I think I have fully mastered JavaSript. On clean wrote OOP project`,
+    text: `I know closure and OOP 😎`,
   },
   {
     name: "HTML/SCSS",
@@ -25,7 +25,6 @@ const skillsData = [
   {
     name: "Express/Nest",
     knowledge: "65",
-    text: `I wrote these articles recently & aligned this text to the right for no real reason other than to mess with you`,
   },
   {
     name: "Docker",
