@@ -79,7 +79,7 @@ const MainContent = ({ data }) => {
             <p className="AppListing-text">{text}</p>
             <section>
               <h3 className="AppListing-author">
-                More info from the Developer
+                Links
               </h3>
               <ul className="AppListing-list">
                 {links.map((link, index) => {
