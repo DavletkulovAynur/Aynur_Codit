@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.08506836.css",
-    "main.js": "/static/js/main.8c293ffa.js",
+    "main.js": "/static/js/main.c15d1a34.js",
     "static/media/test.jpg": "/static/media/test.100d7a7cfacdb23ef335.jpg",
     "static/media/adventure-1.png": "/static/media/adventure-1.13e396d82e6062d11fb7.png",
     "static/media/taxi-img1.png": "/static/media/taxi-img1.0df76bbfb4b82a142bcc.png",
@@ -24,7 +24,6 @@
     "static/media/collection.png": "/static/media/collection.457e589d459eb74fc578.png",
     "static/media/travel.png": "/static/media/travel.d92c248d07c8707d844e.png",
     "static/media/instagram.png": "/static/media/instagram.311f42a698fd980c9112.png",
-    "static/media/space-programmist.png": "/static/media/space-programmist.cec586d37f024f92123d.png",
     "static/media/tg.png": "/static/media/tg.bae2dc446454d0f960e2.png",
     "static/media/not-found.png": "/static/media/not-found.72565519bf9573dc7890.png",
     "static/media/Peachy_Keen_JF.otf": "/static/media/Peachy_Keen_JF.a0832ba2275e7a6a3ce4.otf",
@@ -33,10 +32,10 @@
     "static/media/main.svg": "/static/media/main.08813abfd787107b9368d0b8f25fe650.svg",
     "index.html": "/index.html",
     "main.08506836.css.map": "/static/css/main.08506836.css.map",
-    "main.8c293ffa.js.map": "/static/js/main.8c293ffa.js.map"
+    "main.c15d1a34.js.map": "/static/js/main.c15d1a34.js.map"
   },
   "entrypoints": [
     "static/css/main.08506836.css",
-    "static/js/main.8c293ffa.js"
+    "static/js/main.c15d1a34.js"
   ]
 }
