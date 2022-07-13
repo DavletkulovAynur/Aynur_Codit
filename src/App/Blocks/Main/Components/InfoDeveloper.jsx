@@ -13,7 +13,7 @@ const arrowsData = [
     position: 'top',
   },
   {
-    title: "I’m almost never not wearing t-shirts because collars get in the way.",
+    title: "Independently learned programming and continue to learn every day",
     position: 'right',
   },
 ]

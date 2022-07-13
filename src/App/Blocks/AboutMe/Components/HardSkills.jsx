@@ -16,7 +16,7 @@ const skillsData = [
   {
     name: "React",
     knowledge: "90",
-    text: `I wrote these articles recently & aligned this text to the right for no real reason other than to mess with you`,
+    text: `Built from scratch admin platform for managing platform's database entities and users using React, Node.js, and Mongoose. Implemented complex UI components with React/TypeScript and SCSS.`,
   },
   {
     name: "Mobx/Redux",
