@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.08506836.css",
+    "main.js": "/static/js/main.3895d58c.js",
+    "static/media/test.jpg": "/static/media/test.100d7a7cfacdb23ef335.jpg",
+    "static/media/adventure-1.png": "/static/media/adventure-1.13e396d82e6062d11fb7.png",
+    "static/media/taxi-img1.png": "/static/media/taxi-img1.0df76bbfb4b82a142bcc.png",
+    "static/media/taxi-img2.png": "/static/media/taxi-img2.d7a6d27e0873bbd571fa.png",
+    "static/media/aynur-avatar.png": "/static/media/aynur-avatar.16b5419487290bec89cf.png",
+    "static/media/youtube.png": "/static/media/youtube.34c391ff9a270f99a509.png",
+    "static/media/euro2020-2.png": "/static/media/euro2020-2.a615765d555526bf2b06.png",
+    "static/media/adventure-2.jpg": "/static/media/adventure-2.7e3261272ebc3ea264fc.jpg",
+    "static/media/euro2020-1.png": "/static/media/euro2020-1.0d31d5e10860a37c0982.png",
+    "static/media/footer.svg": "/static/media/footer.6e526d0f738b32a9e3ee729bd48bc7e4.svg",
+    "static/media/store-2.jpg": "/static/media/store-2.5832f8355f54c36653ed.jpg",
+    "static/media/store-1.jpg": "/static/media/store-1.d8bc1c20986377dd8969.jpg",
+    "static/media/developer.png": "/static/media/developer.d6dc2717cbbedf404b48.png",
+    "static/media/football.png": "/static/media/football.5206e475e046fc6bf7f5.png",
+    "static/media/flame-online-sale.png": "/static/media/flame-online-sale.2561a201b22b632922d7.png",
+    "static/media/burger.png": "/static/media/burger.15f40303d88c079fb012.png",
+    "static/media/taxi.png": "/static/media/taxi.78f85fa38d296c1bfbac.png",
+    "static/media/doctor.png": "/static/media/doctor.29d90810bc54a14567e9.png",
+    "static/media/mail.png": "/static/media/mail.541d3e17c58d346d33c5.png",
+    "static/media/collection.png": "/static/media/collection.457e589d459eb74fc578.png",
+    "static/media/travel.png": "/static/media/travel.d92c248d07c8707d844e.png",
+    "static/media/instagram.png": "/static/media/instagram.311f42a698fd980c9112.png",
+    "static/media/space-programmist.png": "/static/media/space-programmist.cec586d37f024f92123d.png",
+    "static/media/tg.png": "/static/media/tg.bae2dc446454d0f960e2.png",
+    "static/media/not-found.png": "/static/media/not-found.72565519bf9573dc7890.png",
+    "static/media/Peachy_Keen_JF.otf": "/static/media/Peachy_Keen_JF.a0832ba2275e7a6a3ce4.otf",
+    "static/media/play-button.svg": "/static/media/play-button.76431e029edbba7066178b85c83e400a.svg",
+    "static/media/arrow.svg": "/static/media/arrow.2c2e4b43c75230e0db8c1a99646d81c3.svg",
+    "index.html": "/index.html",
+    "static/media/main.svg": "/static/media/main.08813abfd787107b9368d0b8f25fe650.svg",
+    "main.08506836.css.map": "/static/css/main.08506836.css.map",
+    "main.3895d58c.js.map": "/static/js/main.3895d58c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08506836.css",
+    "static/js/main.3895d58c.js"
+  ]
+}
