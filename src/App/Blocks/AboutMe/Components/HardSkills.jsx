@@ -16,7 +16,7 @@ const skillsData = [
   {
     name: "React",
     knowledge: "90",
-    text: `Built from scratch admin platform for managing platform's database entities and users using React, Node.js, and Mongoose. Implemented complex UI components with React/TypeScript and SCSS.`,
+    text: `I'am able to built from scratch platform for managing platform's database entities and users using React, Node.js (Express/Nest), and Mongoose. Implemented complex UI components with React/TypeScript and SCSS.`,
   },
   {
     name: "Mobx/Redux",
