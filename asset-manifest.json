@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.08506836.css",
-    "main.js": "/static/js/main.3895d58c.js",
+    "main.js": "/static/js/main.ada2f0c6.js",
     "static/media/test.jpg": "/static/media/test.100d7a7cfacdb23ef335.jpg",
     "static/media/adventure-1.png": "/static/media/adventure-1.13e396d82e6062d11fb7.png",
     "static/media/taxi-img1.png": "/static/media/taxi-img1.0df76bbfb4b82a142bcc.png",
@@ -33,10 +33,10 @@
     "index.html": "/index.html",
     "static/media/main.svg": "/static/media/main.08813abfd787107b9368d0b8f25fe650.svg",
     "main.08506836.css.map": "/static/css/main.08506836.css.map",
-    "main.3895d58c.js.map": "/static/js/main.3895d58c.js.map"
+    "main.ada2f0c6.js.map": "/static/js/main.ada2f0c6.js.map"
   },
   "entrypoints": [
     "static/css/main.08506836.css",
-    "static/js/main.3895d58c.js"
+    "static/js/main.ada2f0c6.js"
   ]
 }
